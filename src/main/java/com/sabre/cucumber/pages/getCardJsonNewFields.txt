@@ -1,0 +1,78 @@
+{
+  "PaymentRQ":
+	{"systemDateTime":"2023-01-17T20:54:00Z",
+	 "version":"1.0.0",
+	 "intent":{"name":"GetCard"},
+	 "pos":{
+		"channelId":"AGY",
+		"localDateTime":1673988840000,
+		"browserDetail":[],
+		"posDetail":{"cityCode":"DFW",
+					 "pseudoCityCode":"TM61",
+					 "stationNumber":"12345678",
+					 "isoCountry":"US",
+					 "name":"ABC TRAVEL"},
+		"agentInfo":{"agentSine":"A0O",
+		             "agentDutyCode":"7"}
+			},
+	 "merchantDetail":{"merchantId":"1H"},
+	 "orderDetail":{
+		"recordLocator":"ABCDQF",
+		"hotelDetail":[{
+			"hotel":{
+				"checkInCity":"SAN ANTONIO",
+				"checkInDate":1673988840000,
+				"checkOutDate":1673988840000,
+				"lengthOfStay":5,
+				"providerDetail":
+						{"id":"ABC12345",
+						 "name":"MARRIOTT SUITES",
+						 "contacts":
+							{"address":
+								{"addressLine1":"123 MAIN ST",
+								 "cityName":"SAN ANTONIO",
+								 "postalCode":"84993",
+								 "county":"SAN ANTONIO COUNTY",
+								 "stateProv":{
+											"code":"TX",
+											"name":"TEXAS"},
+								 "country":{
+											"code":"US",
+											"name":"UNITED STATES"}
+								},
+							 "emailAddress":["test@email.com"],
+							 "phoneNumber":[{"number":"+441614453941",
+							                 "type":"F"}]
+							}
+						},
+				"roomDetail":[{"room":{
+				                   "type":"SINGLE ROOM",
+								   "rate":"50.00",
+								   "description":"1 KING NSMK WITH FREE WIFI, FREE BUFFET BREAKFAST, AC, COFFEE",
+								   "guestsCount":1,
+								   "guestList":[{
+								         "primaryInd":true,
+										 "guestInfo":{"name":{
+															"fullName":"MR. JOHN JONES",
+															"firstName":"MR. JOHN",
+															"lastName":"JONES"},
+										              "emailAddress":[],
+													  "phoneNumber":[]
+													  }
+											   }]
+									  }
+							 }],
+				"amountDetail":{
+				    "currencyCode":"USD",
+					"amount":"40.00"},
+				"serviceNote":"Guest prefers easy access to staircase, on the second floor or higher. They would also prefer to be away from the ice machine."
+				}}],
+		"passengerDetail":[]
+	              },
+	 "paymentDetail":[
+	    {"payment":
+		   {"amountDetail":{"currencyCode":"USD",
+		                    "amount":"40.00"},
+		    "virtualPayment":{"accountCode": "SABREAMEX"}
+		   }
+		}]}}

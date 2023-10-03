@@ -1,0 +1,140 @@
+{
+   "PaymentRQ":{
+      "systemDateTime":"2023-01-20T00:54:00Z",
+      "version":"1.0.0",
+      "intent":{
+         "name":"SendFax"
+      },
+      "pos":{
+         "channelId":"AGY",
+         "browserDetail":[
+
+         ],
+         "posDetail":{
+            "pseudoCityCode":"G9C1",
+            "isoCountry":"CA",
+            "contacts":{
+               "address":{
+                  "addressLine1":"Wadowicka 6",
+                  "addressLine2":"Entrance D",
+                  "cityName":"Krakow",
+                  "postalCode":"33-200",
+                  "stateProv":{
+                     "code":"MP",
+                     "name":"malopolska"
+                  },
+                  "country":{
+                     "code":"PL",
+                     "name":"Poland"
+                  }
+               },
+               "emailAddress":[
+                  "a@b.com"
+               ],
+               "phoneNumber":[
+                  {
+                     "number":"234-234-234",
+                     "type":"F"
+                  },
+                  {
+                     "number":"9889-8231-1231",
+                     "type":"P"
+                  }
+               ]
+            }
+         },
+         "agentInfo":{
+
+         }
+      },
+      "merchantDetail":{
+         "merchantId":"1H"
+      },
+      "orderDetail":{
+         "recordLocator":"QSBASL",
+         "hotelDetail":[
+            {
+               "hotel":{
+                  "checkInCity":"NewYork",
+                  "checkInDate":1673986800000,
+                  "checkOutDate":1673986800000,
+                  "referenceNbr":"EAN1234",
+                  "providerDetail":{
+                     "id":"107789701",
+                     "name":" Courtyard Miami Lakes by Marriott",
+                     "contacts":{
+                        "address":{
+                           "addressLine1":"15700 NW 77th Court",
+                           "addressLine2":"Street 2",
+                           "cityName":"NewYork",
+                           "postalCode":"25015",
+                           "stateProv":{
+                              "code":"NYC",
+                              "name":"NewYork"
+                           },
+                           "country":{
+                              "code":"US",
+                              "name":"United States Of America"
+                           }
+                        },
+                        "phoneNumber":[
+                           {
+                              "number":"528444380000",
+                              "type":"F"
+                           }
+                        ]
+                     }
+                  },
+                  "roomDetail":[
+                     {
+                        "room":{
+                           "type":"Room, 2 Double Beds",
+                           "description":"1 king bed",
+                           "guestsCount":1,
+                           "guestList":[
+                              {
+                                 "primaryInd":true,
+                                 "guestInfo":{
+                                    "name":{
+                                       "firstName":"OGHHQG",
+                                       "lastName":"TDSMOCK"
+                                    },
+                                    "emailAddress":[
+                                       "SCKVAXMR@EMAIL.COM"
+                                    ],
+                                    "phoneNumber":[
+
+                                    ]
+                                 }
+                              }
+                           ]
+                        }
+                     }
+                  ],
+                  "amountDetail":{
+                     "currencyCode":"USD",
+                     "amount":"2284"
+                  },
+                  "serviceNote":"Need to Send Fax",
+                  "cancellationPolicy":"We understand that sometimes your travel plans change. We do not charge a change or cancel fee. However, this property (Motel 6 Ft Worth Northlake - Speedway) imposes the following penalty to its customers that we are required to pass on: Cancellations or changes made after 6:00 PM ((GMT-05:00)) on Oct 20, 2018, or no-shows, are subject to a 1 Night Room & Tax penalty."
+               }
+            }
+         ]
+      },
+      "paymentDetail":[
+         {
+            "payment":{
+               "amountDetail":{
+                  "currencyCode":"USD",
+                  "amount":"284"
+               },
+               "virtualPayment":{
+                  "accountCode": "SABREAMEX",
+			      "deploymentId": "11515745",
+                  "returnClearTextCardNbr":false
+               }
+            }
+         }
+      ]
+   }
+}

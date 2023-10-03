@@ -1,0 +1,108 @@
+{
+	"PaymentRQ": {
+		"systemDateTime": "2023-01-15T23:03:51Z",
+		"version": "1.0.0",
+		"intent": {"name": "ModifyNotification"},
+		"pos": {	"channelId": "AGY",
+			"localDateTime": "2023-01-15T23:03:51Z",
+			"posDetail": {
+				"cityCode": "DFW",
+				"pseudoCityCode": "G7HE",
+				"stationNumber": "12345678",
+				"isoCountry": "US",
+				"name": "ABC TRAVEL"
+			},
+			"agentInfo": {
+				"agentSine": "A0O",
+				"agentDutyCode": "7"
+			}
+		},
+		"merchantDetail": {
+			"merchantId": "1H"
+		},
+		"orderDetail": {
+			"recordLocator": "GROVER",
+			"hotelDetail": [
+				{
+					"hotel": {
+						"checkInCity": "TAM",
+						"checkInDate": "2023-01-16T23:03:51Z",
+						"checkOutDate": "2023-01-19T23:03:51Z",
+						"lengthOfStay": 5,
+						"providerDetail": {
+							"id": "MARSUITES102",
+							"name": "MARRIOTT SUITES",
+							"contacts": {
+								"emailAddress": [
+									"test@email.com"
+								],
+								"phoneNumber": [
+									{
+										"number": "8675309-tul614453941",
+										"type": "F"
+									}
+								],
+								"address": {
+									"addressLine1": "123 MAIN ST",
+									"cityName": "MIA",
+									"postalCode": "84993",
+									"county": "",
+									"stateProv": {
+										"code": "FL",
+										"name": "FLORIDA"
+									},
+									"country": {
+										"code": "US",
+										"name": "UNITED STATES"
+									}
+								}
+							}
+						},
+						"roomDetail": [
+							{
+								"room": {
+									"type": "SINGLE ROOM",
+									"rate": "192.99",
+									"description": "1 KING NSMK WITH FREE WIFI, FREE BUFFET BREAKFAST, AC, COFFEE",
+									"guestsCount": 11,
+									"guestList": [
+										{
+											"primaryInd": false,
+											"guestInfo": {
+												"name": {
+													"fullName": "MR. JOHN JONES",
+													"firstName": "MR. JOHN",
+													"lastName": "JONES"
+												}
+											}
+										}
+									]
+								}
+							}
+						],
+						"amountDetail": {
+							"currencyCode": "USD",
+							"amount": "192.99"
+						},
+						"serviceNote": "Guest prefers easy access to staircase, on the second floor or higher. They would also prefer to be away from the ice machine."
+					}
+				}
+			]
+		},
+		"paymentDetail": [
+			{
+				"payment": {
+					"amountDetail": {
+				     "currencyCode": "USD",
+						"amount": "192.99"
+
+					},
+					"virtualPayment": {
+						"accountCode": "SABREAMEX",
+						"deploymentId": "11439064"
+					}
+				}
+			}
+		]
+	}
+}

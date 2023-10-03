@@ -1,0 +1,106 @@
+{
+	"PaymentRQ": {
+		"systemDateTime": "2023-01-15T22:45:51Z",
+		"version": "1.0.0",
+		"intent": {"name": "GetCard"},
+		"pos": {	"channelId": "ATO",
+			"localDateTime": "2023-01-15T22:45:51Z",
+			"posDetail": {
+				"cityCode": "123",
+				"pseudoCityCode": "61N1",
+				"stationNumber": "12345678",
+				"isoCountry": "US",
+				"name": "ABC TRAVEL"
+			},
+			"agentInfo": {
+				"agentSine": "A0O",
+				"agentDutyCode": "7"
+			}
+		},
+		"merchantDetail": {
+			"merchantId": "1H"
+		},
+		"orderDetail": {
+		"recordLocator": "XOWQGI",
+						"hotelDetail": [
+				{
+					"hotel": {
+						"checkInCity": "SAN ANTONIO",
+						"checkInDate": "2023-01-16T22:45:51Z",
+						"checkOutDate": "2023-01-17T22:45:51Z",
+						"lengthOfStay": 5,
+						"providerDetail": {
+							"id": "ABC12345",
+							"name": "MARRIOTT SUITES",
+							"contacts": {
+								"emailAddress": [
+									"test@email.com"
+								],
+								"phoneNumber": [
+									{
+										"number": "+441614453941",
+										"type": "F"
+									}
+								],
+								"address": {
+									"addressLine1": "123 MAIN ST",
+									"cityName": "SAN ANTONIO",
+									"postalCode": "84993",
+									"county": "SAN ANTONIO COUNTY",
+									"stateProv": {
+										"code": "TX",
+										"name": "TEXAS"
+									},
+									"country": {
+										"code": "US",
+										"name": "UNITED STATES"
+									}
+								}
+							}
+						},
+						"roomDetail": [
+							{
+								"room": {
+									"type": "SINGLE ROOM",
+									"rate": "50.00",
+									"description": "1 KING NSMK WITH FREE WIFI, FREE BUFFET BREAKFAST, AC, COFFEE",
+									"guestsCount": 1,
+									"guestList": [
+										{
+											"primaryInd": true,
+											"guestInfo": {
+												"name": {
+													"fullName": "MR. JOHN JONES",
+													"firstName": "MR. JOHN",
+													"lastName": "JONES"
+												}
+											}
+										}
+									]
+								}
+							}
+						],
+						"amountDetail": {
+							"currencyCode": "USD",
+							"amount": "40.00"
+						},
+						"serviceNote": "Guest prefers easy access to staircase, on the second floor or higher. They would also prefer to be away from the ice machine."
+					}
+				}
+			]
+		},
+		"paymentDetail": [
+			{
+				"payment": {
+					"amountDetail": {
+						"currencyCode": "CAD",
+						"amount": "40.00"
+					},
+					"virtualPayment": {
+						"accountCode": "SABREAMEX"
+					}
+				}
+			}
+		]
+	}
+}

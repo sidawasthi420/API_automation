@@ -1,0 +1,212 @@
+{
+	"PaymentRQ": {
+		"systemDateTime": "2023-01-17T20:45:00Z",
+		"paymentReferenceNumber": "a",
+		"version": "2.0.0",
+		"intent": {
+			"name": "GetCard",
+			"type": ""
+		},
+		"pos": {
+			"ipAddress": "10.239.229.1",
+			"channelId": "AGY",
+			"localDateTime": "2023-01-17T20:45:00",
+			"sourceId": "",
+			"languageCode": "a",
+			"browserDetail": [{
+					"httpHeader": {
+						"name": "a",
+						"value": "a"
+					}
+				},
+				{
+					"httpHeader": {
+						"name": "a",
+						"value": "a"
+					}
+				}
+			],
+			"deviceFingerPrint": "a",
+			"sessionId": "a",
+			"ndcInd": "F",
+			"settlementPlan": "BSP",
+			"posDetail": {
+				"cityCode": "BAH",
+				"officeCode": "BAH",
+				"pseudoCityCode": "61N1",
+				"stationNumber": "999329292",
+				"isoCountry": "CA",
+				"name": "TRAVEL EH",
+				"contacts": {
+					"name": {
+						"fullName": "BENNETT JACKSON",
+						"firstName": "BENNETT",
+						"lastName": "JACKSON"
+					},
+					"address": {
+						"type": "Home",
+						"description": "stone",
+						"addressLine1": "3244 Homeway lane",
+						"addressLine2": "a",
+						"cityName": "Colleyville",
+						"postalCode": "76000",
+						"district": "a",
+						"county": "a",
+						"stateProv": {
+							"code": "TX",
+							"name": "TEXAS"
+						},
+						"country": {
+							"code": "CA",
+							"name": "CANADA"
+						}
+					},
+					"emailAddress": [
+						"Bennett@tester.com",
+						"H"
+					],
+					"phoneNumber": [{
+						"number": "801-999-2002",
+						"type": "O"
+					}]
+				}
+			},
+			"agentInfo": {
+				"agentSine": "AJB",
+				"agentDutyCode": "9",
+				"lniata": "324333"
+			}
+		},
+		"merchantDetail": {
+			"merchantId": "1S",
+			"merchantName": "Etihad",
+			"merchantCategoryCode": "a"
+		},
+		"orderDetail": {
+			"orderId": "LMNOP232",
+			"orderType": "O",
+			"recordLocator": "BEQWIE",
+			"validatingCarrierCode": "WS",
+			"passengerDetail": [{
+					"nameInPNR": "IAN WAY",
+					"nameNumberInPNR": "2.1",
+					"passengerType": "INF",
+					"passengerInfo": {
+						"name": {
+							"fullName": "MSTR IAN WAY",
+							"firstName": "IAN",
+							"lastName": "WAY"
+						},
+						"emailAddress": [
+							".COM"
+						],
+						"phoneNumber": [{
+							"number": "H",
+							"type": "90873274"
+						}]
+					}
+				},
+				{
+
+					"nameNumberInPNR": "1.2",
+					"passengerType": "CHD",
+					"passengerInfo": {
+						"name": {
+							"fullName": "Maggie PIE",
+							"firstName": "MAGGIE",
+							"lastName": "PIE"
+						},
+						"emailAddress": [
+							"TESTINGMYEMAIL.COM"
+						]
+					}
+				}
+			],
+			"itineraryDetail": {
+				"flightDetail": [{
+
+						"flightNumber": "2223",
+						"classOfService": "J",
+						"departureInfo": {
+							"departureAirport": "BAH",
+							"departureDateTime": "2023-01-18T10:25:00.000"
+						},
+						"arrivalInfo": {
+							"arrivalAirport": "LHR",
+							"arrivalDateTime": "2023-01-19T10:25:00.000"
+						},
+						"fareBasisCode": "BIGBEN",
+						"openSegment": true,
+						"arrivalUnknownSegment": true
+					},
+					{
+						"airlineCode": "EY",
+						"flightNumber": "999",
+						"classOfService": "F",
+						"departureInfo": {
+							"departureAirport": "LHR",
+							"departureDateTime": "2023-01-19T10:25:00.000"
+						},
+						"arrivalInfo": {
+							"arrivalAirport": "JFK",
+							"arrivalDateTime": "2023-01-20T10:25:00.000"
+						},
+						"fareBasisCode": "LIBERTY",
+						"openSegment": false,
+						"arrivalUnknownSegment": true
+					}
+				]
+			},
+			"contacts": {
+				"name": {
+					"fullName": "Betty LOU",
+					"firstName": "BETTY",
+					"lastName": "LOU"
+				},
+				"address": {
+					"type": "H",
+					"description": "a",
+					"addressLine1": "321 Main Street Lane Way",
+					"addressLine2": "",
+					"cityName": "New York City",
+					"postalCode": "11111-2222",
+					"district": "",
+					"county": "",
+					"stateProv": {
+						"code": "",
+						"name": ""
+					},
+					"country": {
+						"code": "",
+						"name": ""
+					}
+				},
+				"emailAddress": [
+					"",
+					""
+				],
+				"phoneNumber": [{
+						"number": "",
+						"type": ""
+					},
+					{
+						"number": "",
+						"type": "a"
+					}
+				]
+			}
+		},
+		"paymentDetail": [{
+				"payment": {
+					"amountDetail": {
+						"currencyCode": "BHD",
+						"amount": "222.000"
+					},
+					"virtualPayment": {
+						"accountCode": "SABREAMEX"
+						        }
+            }
+         }
+      ]
+   }
+}

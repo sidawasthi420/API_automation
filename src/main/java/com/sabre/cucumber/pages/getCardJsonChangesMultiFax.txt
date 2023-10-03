@@ -1,0 +1,207 @@
+{
+   "PaymentRQ":{
+      "systemDateTime":"2023-02-28T22:05:00Z",
+      "version":"1.0.0",
+      "intent":{
+         "name":"GetCard"
+      },
+      "pos":{
+         "channelId":"AGY",
+         "localDateTime":"2023-02-28T22:05:00",
+         "ndcInd":"false",
+         "settlementPlan":"ARC",
+         "posDetail":{
+            "cityCode":"DFW",
+            "pseudoCityCode":"TM61",
+            "stationNumber":"99999992",
+            "isoCountry":"GB",
+            "name":"ABC TRAVEL"
+         },
+         "agentInfo":{
+            "agentSine":"A0O",
+            "agentDutyCode":"7"
+         }
+      },
+      "merchantDetail":{
+         "merchantId":"1S"
+      },
+      "orderDetail":{
+         "recordLocator":"LMMOPQ",
+         "validatingCarrierCode":"AM",
+"passengerDetail": [
+                {
+                    "nameInPNR": "EmmyLou Harris",
+                    "nameNumberInPNR": "1.1",
+                    "passengerType": "ADT",
+                    "passengerInfo": {
+                        "name": {
+                            "fullName": "EmmyLou Harris",
+                            "firstName": "Emmy Lou",
+                            "lastName": "Harris"
+                        },
+                        "address": {
+                            "type": "Home",
+                            "description": "mansion",
+                            "addressLine1": "123 Sing Song Lane",
+                            "addressLine2": "Bldg 20A",
+                            "cityName": "Nashville",
+                            "postalCode": "32333-1232",
+                            "district": "a",
+                            "county": "a",
+                            "stateProv": {
+                                "code": "TN",
+                                "name": "Tennessee"
+                            },
+                            "country": {
+                                "code": "US",
+                                "name": "USA"
+                            }
+                        },
+                        "emailAddress": [
+                            "Guitarsand@cadillacs.com",
+                            "H"
+                        ],
+                        "phoneNumber": [
+                            {
+                                "number": "319-222-3233",
+                                "type": "cell"
+                            },
+                            {
+                                "number": "9019999999",
+                                "type": "Office"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nameInPNR": "Dolly Parton",
+                    "nameNumberInPNR": "2.1",
+                    "passengerType": "ADT",
+                    "passengerInfo": {
+                        "name": {
+                            "fullName": "Dolly Parton",
+                            "firstName": "Dolly",
+                            "lastName": "Parton"
+                        },
+                        "address": {
+                            "type": "",
+                            "description": " Bigger mansion",
+                            "addressLine1": "345 Butterfly Way",
+                            "addressLine2": "a",
+                            "cityName": "Pidgeon Forge",
+                            "postalCode": "11111",
+                            "district": "a",
+                            "county": "a",
+                            "stateProv": {
+                                "code": "VA",
+                                "name": "Virginiaa"
+                            },
+                            "country": {
+                                "code": "US",
+                                "name": "USA"
+                            }
+                        },
+                        "emailAddress": [
+                            "Dolly@sabre.com",
+                            "a"
+                        ],
+                        "phoneNumber": [
+                            {
+                                "number": "22222222222",
+                                "type": "C"
+                            },
+                            {
+                                "number": "9998876565",
+                                "type": "W"
+                            }
+                        ]
+                    }
+                }
+            ],
+         "itineraryDetail":{
+            "flightDetail":[
+               {
+                  "airlineCode":"AA",
+                  "flightNumber":"111",
+                  "classOfService":"BeAbayBeIboo",
+                  "departureInfo":{
+                     "departureAirport":"DFW",
+                     "departureDateTime":"2023-02-28T22:05:00Z"
+                  },
+                  "arrivalInfo":{
+                     "arrivalAirport":"LAX",
+                     "arrivalDateTime":"2023-02-28T22:05:00Z"
+                  },
+                  "fareBasisCode":"a",
+                  "openSegment":true,
+                  "arrivalUnknownSegment":true
+               },
+               {
+                  "airlineCode":"VA",
+                  "flightNumber":"222",
+                  "classOfService":"BeIbikibybobickyboo",
+                  "departureInfo":{
+                     "departureAirport":"LAX",
+                     "departureDateTime":"2023-02-28T22:05:00"
+                  },
+                  "arrivalInfo":{
+                     "arrivalAirport":"SYD",
+                     "arrivalDateTime":"2023-02-28T22:05:00"
+                  },
+                  "fareBasisCode":"a",
+                  "openSegment":true,
+                  "arrivalUnknownSegment":true
+               }
+            ]
+         },
+         "contacts":{
+            "name":{
+               "fullName":"Larry Stooge",
+               "firstName":"Larry",
+               "lastName":"Stooge"
+            },
+            "address":{
+               "type":"H",
+               "description":"nice place",
+               "addressLine1":"1001 WhyIoutta",
+               "addressLine2":"Apt C",
+               "cityName":"Los Angles",
+               "postalCode":"90999-1234",
+               "district":"a",
+               "county":"LA",
+               "stateProv":{
+                  "code":"CA",
+                  "name":"California"
+               },
+               "country":{
+                  "code":"US",
+                  "name":"USA"
+               }
+            },
+            "emailAddress":[
+               "CurlyMo@test.com",
+               "B"
+            ],
+            "phoneNumber":[
+               {
+                  "number":"801-999-2002",
+                  "type":"O"
+               }
+            ]
+         }
+      },
+      "paymentDetail":[
+         {
+            "payment":{
+               "amountDetail":{
+                  "currencyCode":"GBP",
+                  "amount":"40.00"
+               },
+               "virtualPayment":{
+                  "accountCode":"SABREAMEX"
+               }
+            }
+         }
+      ]
+   }
+}

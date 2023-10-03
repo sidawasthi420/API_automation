@@ -1,0 +1,61 @@
+{
+	"PaymentRQ": {
+	  "systemDateTime": "2022-12-07T14:52:51Z",
+	  "version": "1.0.0",
+	  "intent": {
+		"name": "GetSendFaxHistory"
+			    },
+	   "pos": {
+		"channelId": "AGY",
+		"localDateTime": "2022-12-07T14:52:51Z",
+		"posDetail": {
+	        "cityCode": "DFW",
+		  "pseudoCityCode": "G9C1",
+		  "stationNumber": "12345678",
+		  "isoCountry": "CA",
+		  "name": "ABC TRAVEL",
+	    "contacts": {
+		"emailAddress": [
+		  "AGENCYEMAIL@EMAIL.COM"
+		                ]
+				      }
+			          },
+		"agentInfo": {
+		  "agentSine": "A0O",
+		  "agentDutyCode": "7"
+			         }
+		        },
+		"merchantDetail": {
+		  "merchantId": "1H"
+		                  },
+		"orderDetail": {
+		  "recordLocator": "XOOQGI",
+		  "hotelDetail": [
+		    {
+	          "hotel": {
+				"providerDetail": {
+				  "contacts": {
+					"phoneNumber": [
+					  {
+						"number": "+441614453941",
+						"type": "F"
+					  }
+								   ]
+							  }
+						           }
+					    }
+			}
+			             ]
+		              },
+		"paymentDetail": [
+		  {
+			"payment": {
+			   "virtualPayment": {
+						"accountCode": "SABREAMEX",
+						"deploymentId": "11439064"
+					}
+				       }
+		  }
+						]
+	}
+}

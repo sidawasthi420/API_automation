@@ -1,0 +1,107 @@
+{
+  "PaymentRQ": {
+    "systemDateTime": "2022-12-07T12:58:51Z",
+    "version": "1.0.0",
+    "intent": {"name": "GetCard"},
+    "pos": {	"channelId": "AGY",
+      "localDateTime": "2022-12-07T12:58:51Z",
+      "posDetail": {
+        "cityCode": "LON",
+        "pseudoCityCode": "WD40",
+        "stationNumber": "",
+        "isoCountry": "CA",
+        "name": "TRAVEL DISNEY"
+      },
+      "agentInfo": {
+        "agentSine": "A0O",
+        "agentDutyCode": "*"
+      }
+    },
+    "merchantDetail": {
+      "merchantId": "1H"
+    },
+    "orderDetail": {
+      "recordLocator": "XOOQGI",
+      "hotelDetail": [
+        {
+          "hotel": {
+            "checkInCity": "LON",
+            "checkInDate": "2022-12-01T08:55:51Z",
+            "checkOutDate": "2022-12-07T08:55:51Z",
+            "lengthOfStay": 3,
+            "providerDetail": {
+              "id": "ABC12345",
+              "name": "Garden Grove SUITES",
+              "contacts": {
+                "emailAddress": [
+                  "test@email.com"
+                ],
+                "phoneNumber": [
+                  {
+                    "number": "867530-941",
+                    "type": "F"
+                  }
+                ],
+                "address": {
+                  "addressLine1": "2B Embarcadero ST",
+                  "cityName": "London",
+                  "postalCode": "84993",
+                  "county": "GLENBRIAR",
+                  "stateProv": {
+                    "code": "UK",
+                    "name": "UNITED KINGDOM"
+                  },
+                  "country": {
+                    "code": "UK",
+                    "name": "UNITED KINGDOM"
+                  }
+                }
+              }
+            },
+            "roomDetail": [
+              {
+                "room": {
+                  "type": "Double ",
+                  "rate": "50.44",
+                  "description": "1 KING NSMK WITH FREE WIFI, FREE BUFFET BREAKFAST, AC, COFFEE",
+                  "guestsCount": 1,
+                  "guestList": [
+                    {
+                      "primaryInd": true,
+                      "guestInfo": {
+                        "name": {
+                          "fullName": "JEFF JONES Sr.",
+                          "firstName": "JEFF",
+                          "lastName": "JONES Sr."
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            ],
+            "amountDetail": {
+              "currencyCode": "USD",
+              "amount": "40.00"
+            },
+            "serviceNote": "Guest prefers easy access to staircase, on the second floor or higher. They would also prefer to be away from the ice machine."
+          }
+        }
+      ]
+    },
+    "paymentDetail": [
+      {
+        "payment": {
+          "amountDetail": {
+            "currencyCode": "GBP",
+            "amount": "40.00"
+
+          },
+          "virtualPayment": {
+            "accountCode": "SABREAMEX"
+          }
+        }
+      }
+    ]
+  }
+}
