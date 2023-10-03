@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG BDD Test Suite" verbose="1" parallel="tests" thread-count="1" configfailurepolicy="continue">
+    <test name="Basic cucumber tests using testng" annotations="JDK" preserve-order="true">
+        <!--<parameter name="sprintId" value="test_sprint"></parameter>-->
+        <!--<parameter name="env" value="test_env"></parameter>-->
+        <!--<parameter name="productArea" value="test_productArea"></parameter>-->
+        <!--<parameter name="product" value="test_product"></parameter>-->
+        <!--<parameter name="component" value="test_component"></parameter>-->
+        <classes>
+            <class name="com.sabre.cucumber.runner.TestRunner"/>
+        </classes>
+    </test>
+</suite>
