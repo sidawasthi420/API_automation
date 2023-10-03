@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true">
+    <include resource="logback-filewriter.xml"/>
+
+    <appender name="ConsoleLog" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%highlight(%-5level) %cyan(%logger{5}@[%-4.30thread]) - %msg%n</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+            <evaluator> <!-- defaults to type ch.qos.logback.classic.boolex.JaninoEventEvaluator -->
+                <expressions>
+                    <expression>
+                        logger.equals("com.sabre.cucumberbase.services.base.BrowserService") ||
+                        logger.contains("org.eclipse.jetty.")
+                    </expression>
+                </expressions>
+            </evaluator>
+            <OnMismatch>ACCEPT</OnMismatch>
+            <OnMatch>DENY</OnMatch>
+        </filter>
+    </appender>
+
+    <!-- By default, the level of the root level is set to DEBUG -->
+    <root level="INFO">
+        <appender-ref ref="ConsoleLog"/>
+        <appender-ref ref="AppLogs"/>
+    </root>
+</configuration>
